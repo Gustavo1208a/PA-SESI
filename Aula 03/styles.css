@@ -1,0 +1,11 @@
+.mcqueen {
+    margin: 50px;
+    width: 250px;
+    height: 250px;
+    transition: all 1.5s;
+}
+
+.mcqueen:hover {
+    transform: scale(0.8);
+    rotate: calc(180deg);
+}
