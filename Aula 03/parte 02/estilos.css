@@ -1,0 +1,23 @@
+/*div {
+    background-color: yellow;
+    color: red;
+}*/
+
+.QuadradoAzul {
+    width: 250px;
+    height: 250px;
+    background-color: blue;
+    margin: 20px 10px 30px 40px;
+}
+
+.QuadradoAmarelo {
+    width: 250px;
+    height: 250px;
+    background-color: yellow;
+}
+
+.QuadradoVerde {
+    width: 250px;
+    height: 250px;
+    background-color: green;
+}
