@@ -22,6 +22,8 @@ function calculo(operacao) {
         resultado = Number(valueA) * Number(valueB)
     } else if (operacao == "/") {
         resultado = Number(valueA) / Number(valueB)
+    } else {
+        resultado = "Falha"
     }
 
     alert(`O resultado e: ${resultado}`)
