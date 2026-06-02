@@ -1,11 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Aula 07</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
-    
+    <input type="text" placeholder="Insira seu nome" id="nome">
+    <button onclick="apertou()">Enviar</button>
+
+    <div>
+        <br/>
+        <input type="text" id="valueA" placeholder="Valor A">
+        <br/>
+        <input type="text" id="valueB" placeholder="Valor B">
+        <br/>
+        <button onclick="calculo('+')">Somar</button>
+        <button onclick="calculo('-')">Subtrair</button>
+        <button onclick="calculo('*')">Multiplicar</button>
+        <button onclick="calculo('/')">Dividir</button>
+    </div>
+
+    <script src="script.js"></script>
 </body>
+
 </html>
