@@ -1,12 +1,31 @@
-let frutas = [ "Maça", "Uva", "Pera"]
+let frutas = ["Maçã", "Uva", "Pêra"]
 
 console.log(frutas, frutas.length)
 
-let aluno = {
-    id: 1,
-    nome: "Lambido",
-    email: "teste@email.com",
-    senha: 123
+let alunos = [
+    {
+        id: 1,
+        nome: "Geovane",
+        sobrenome: "Tuasprimas"
+    },
+    {
+        id: 2,
+        nome:"Rafael",
+        sobrenome: "Lambido"
+    },
+    {
+        id: 3,
+        nome: "Pedro",
+        sobrenome: "Akilos"
+    }   
+]
+
+console.log(alunos[2].nome)
+
+
+function soma(n1, n2){
+    return n1 + n2
 }
 
-console.log(aluno)
+console.log(soma(10,20))
+console.log(soma(50,30))
