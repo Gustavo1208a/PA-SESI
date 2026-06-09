@@ -1,3 +1,5 @@
+const spanResult = document.querySelector("#resultado")
+
 function apertou() {
     const userInput = document.querySelector("#nome").value
 
@@ -14,17 +16,11 @@ function calculo(operacao) {
 
     let resultado = 0;
 
-    if (operacao == "+") {
-        resultado = Number(valueA) + Number(valueB)
-    } else if (operacao == "-") {
-        resultado = Number(valueA) - Number(valueB)
-    } else if (operacao == "*") {
-        resultado = Number(valueA) * Number(valueB)
-    } else if (operacao == "/") {
-        resultado = Number(valueA) / Number(valueB)
-    } else {
-        resultado = "Falha"
-    }
+    if (operacao == "+") resultado = Number(valueA) + Number(valueB)
+    else if (operacao == "-") resultado = Number(valueA) - Number(valueB)
+    else if (operacao == "*") resultado = Number(valueA) * Number(valueB)
+    else if (operacao == "/") resultado = Number(valueA) / Number(valueB)
+    else resultado = "Falha"
 
-    alert(`O resultado e: ${resultado}`)
+    return spanResult.innerHTML = resultado
 }
