@@ -9,15 +9,21 @@
 
 <body>
     <div>
-        <input type="text" placeholder="Nome" id="nome"> <br>
-        <input type="text" placeholder="Sobrenome" id="sobrenome"> <br>
-        <input type="text" placeholder="Idade" id="idade"> <br>
-        <input type="text" placeholder="Profissão" id="profissao"> <br><br>
-        <button onclick="showResult()">Cadastrar-Se</button><br>
+        <form id="formulario">
+            <label for="nome">Nome: </label>
+            <input type="text" placeholder="Nome" id="nome" required> <br>
+            <label for="sobrenome">Sobrenome: </label>
+            <input type="text" placeholder="Sobrenome" id="sobrenome" required> <br>
+            <label for="idade">Idade: </label>
+            <input type="text" placeholder="Idade" id="idade" required> <br>
+            <label for="profissao">Profissao: </label>
+            <input type="text" placeholder="Profissão" id="profissao" required> <br><br>
+            <input type="submit" value="Cadastrar">
+        </form>
     </div>
 
     <div>
-        <span id="resultado"></span>
+        <p id="resultado"></p>
     </div>
 
     <script src="script.js"> </script>
