@@ -1,0 +1,12 @@
+CREATE DATABASE db_usuarios;
+CREATE DATABASE db_usuarios;
+USE db_usuarios;
+
+CREATE TABLE usuario (
+id INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
+nome VARCHAR(100),
+email VARCHAR(100),
+senha VARCHAR(100)
+);
+
+SELECT * FROM usuario
